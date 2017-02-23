@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'karlabold';
+    src: url('fonts/karla-bold-webfont.eot');
+    src: url('fonts/karla-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/karla-bold-webfont.woff2') format('woff2'),
+         url('fonts/karla-bold-webfont.woff') format('woff'),
+         url('fonts/karla-bold-webfont.ttf') format('truetype'),
+         url('fonts/karla-bold-webfont.svg#karlabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'karlabolditalic';
+    src: url('fonts/karla-bolditalic-webfont.eot');
+    src: url('fonts/karla-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/karla-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/karla-bolditalic-webfont.woff') format('woff'),
+         url('fonts/karla-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/karla-bolditalic-webfont.svg#karlabolditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'karlaitalic';
+    src: url('fonts/karla-italic-webfont.eot');
+    src: url('fonts/karla-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/karla-italic-webfont.woff2') format('woff2'),
+         url('fonts/karla-italic-webfont.woff') format('woff'),
+         url('fonts/karla-italic-webfont.ttf') format('truetype'),
+         url('fonts/karla-italic-webfont.svg#karlaitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'karlaregular';
+    src: url('fonts/karla-regular-webfont.eot');
+    src: url('fonts/karla-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/karla-regular-webfont.woff2') format('woff2'),
+         url('fonts/karla-regular-webfont.woff') format('woff'),
+         url('fonts/karla-regular-webfont.ttf') format('truetype'),
+         url('fonts/karla-regular-webfont.svg#karlaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: karlaregular;
+	margin: 0;
+	padding-top: 5vh;
+	width: 100%;
+	background-color: #0A1128;
+}
+
+h1 {
+	font-size: 3em;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+#theatre {
+	background-color: #FBFEF9;
+	color: #0A1128;
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 5vh;
+	margin-bottom: 5vh;
+}
+
+#banner {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5vh;
+	background-color: #1282A2;
+	color: #FBFEF9;
+	padding: 2%;
+}
+
+.container-fluid {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#info {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#instructions {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+#theatreTab {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+table {
+	background-color: #0A1128;
+	color: #FBFEF9;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+tbody {
+	width: 100%;
+	margin: 0;
+}
+
+tr {
+	width: 100%;
+}
+
+th {
+	text-align: center;
+}
+
+.row {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.col-xs-2, .col-xs-10, .col-xs-12, .col-xs-6 {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.col-xs-6, .col-xs-12 {
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.col-xs-2 img {
+	width: 90%;
+}
+
+#screenPanel {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #0A1128;
+	color: #FBFEF9;
+	font-size: 1.2em;
+	padding: 0.5%;
+}
+
+.available.armchair {
+	background: url(armchair_available.png);
+	background-size: 80%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.available.left-sofa {
+	background: url(sofa_left_available.png);
+	background-size: 80%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+.available.right-sofa {
+	background: url(sofa_right_available.png);
+	background-size: 80%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: right;
+}
+
+.taken.armchair {
+	background: url(armchair_taken.png);
+	background-size: 80%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.taken.left-sofa {
+	background: url(sofa_left_taken.png);
+	background-size: 80%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+.taken.right-sofa {
+	background: url(sofa_right_taken.png);
+	background-size: 80%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: right;
+}
+
+.mine.armchair {
+	background: url(armchair_mine.png);
+	background-size: 80%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.mine.left-sofa {
+	background: url(sofa_left_mine.png);
+	background-size: 80%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+.mine.right-sofa {
+	background: url(sofa_right_mine.png);
+	background-size: 80%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: right;
+}
+
+.seatHover {
+	background-color: #F15025;
+	padding-left: 3wv;
+	padding-right: 3vw;
+	padding-top: 1vh;
+	padding-left: 1vh;
+	z-index: 100;
+	display: none;
+}
+
+td, th {
+	width: 5%;
+	display: inline-block !important;
+	padding: 2%;
+	font-size: 0.8em;
+}
+
+#selections {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 5vh;
+	margin-bottom: 2vh;
+}
+
+.list-group {
+	width: 100%;
+}
+
+#total-price {
+	text-align: right;
+}
+
+#buttons {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+#cancel-wrapper {
+	text-align: left;
+}
+
+#next-wrapper {
+	text-align: right;
+}
